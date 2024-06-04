@@ -1,0 +1,31 @@
+
+input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #090808;
+    border-radius: 5px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(https://img.freepik.com/premium-photo/old-electronic-devices-dark-background-concept-recycling-disposal-electronic-waste-copy-space_76255-1810.jpg);
+    background-size: cover;
+  }
+
+  button {
+    padding: 10px 100px;
+    background-color: #040405;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

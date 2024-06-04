@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;}
+
+        .main {
+            margin-top: 30px;
+        }
+        .service {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .service h2 {
+            margin-top: 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #77aaff;
+        }
+        header {
+    background-color: #2c3e50;
+    color: #e3dddd;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f6eded;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Recycling Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="./services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container main">
+        <div class="service">
+            <h2>Post Ad for Recycling</h2>
+            <p>Post your items for recycling. Fill out the form to create a new ad.</p>
+            <a href="products.html" class="btn">Post Ad</a>
+        </div>
+        <div class="service">
+            <h2>View Posted Ads</h2>
+            <p>Browse through the ads posted by others. Find items available for recycling.</p>
+            <a href="ads.html" class="btn">View Ads</a>
+        </div>
+        <div class="service">
+            <h2>Join as a Recycling Facility</h2>
+            <p>Explore ads posted by others and get in touch with the poster.</p>
+            <a href="signup.html" class="btn">Sign Up</a>
+        </div>
+        
+    </div>
+    <footer>
+        <p>&copy; 2024 Recycling Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

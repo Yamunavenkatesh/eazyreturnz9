@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Upload</title>
+    <link rel="stylesheet" href="./products.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Post Your Ad</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="itemType">Item Type:</label>
+                <select id="itemType" name="itemType" required>
+                    <option value="">Select Item Type</option>
+                    <option value="Plastic">Plastic Item</option>
+                    <option value="Paper">Paper</option>
+                    <option value="Glass">Glass</option>
+                    <option value="Other">Other</option>
+</select></div>
+<div class="form-group">
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea>
+</div>
+
+<div class="form-group">
+    <label for="condition">Condition:</label>
+    <select id="condition" name="condition" required>
+        <option value="">Select Condition</option>
+        <option value="new">New</option>
+        <option value="used">Used</option>
+        <option value="broken">Broken</option>
+    </select>
+</div>
+
+<div class="form-group">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" required>
+</div>
+<div class="form-group">
+    <label for="email">Contact Email</label>
+    <input type="email" id="email" name="email" required>
+</div>
+
+<div class="form-group">
+    <label for="account">Account Number:</label>
+    <input type="text" id="account" name="account" required>
+</div>
+
+<div class="form-group">
+    <label for="upi">UPI Id</label>
+    <input type="text" id="upi" name="upi" required>
+</div>
+
+<div class="form-group">
+    <label for="image">Upload Image:</label>
+    <input type="file" id="image" name="image" accept="image/*" required>
+</div>
+
+<div id="message" class="message"></div>
+<button type="button" onclick="getLocation()">Get Location</button>
+<div id="location" class="location"></div>
+
+<button type="submit" class="submit-btn">Upload</button>
+</form>
+</div>
+
+
+    <script src="./products.js"></script>
+</body>
+</html>
